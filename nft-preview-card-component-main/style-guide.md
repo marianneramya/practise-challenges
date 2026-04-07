@@ -13,7 +13,7 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Blue 500: hsl(215, 51%, 70%)
+- Blue 500: hsl(215, 52%, 70%)
 - Cyan 400: hsl(178, 100%, 50%)
 
 ### Neutral
