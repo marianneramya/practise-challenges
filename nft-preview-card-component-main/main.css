@@ -1,0 +1,33 @@
+body {
+  background-color: var(--Blue-950);
+}
+.card-container {
+  display: flex;
+  background-color: var(--Blue-900);
+  padding: 100x;
+  box-sizing: border-box;
+}
+.card-image {
+  display: flex;
+  max-width: 209px;
+  max-height: 200px;
+}
+.card-title {
+  color: white;
+}
+.content {
+  color: var(--Blue-800);
+}
+
+.value {
+  color: hsl(178, 100%, 50%);
+}
+.deadline {
+  color: hsl(215, 52%, 70%);
+}
+.creator-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: hsl(215, 52%, 70%);
+}
