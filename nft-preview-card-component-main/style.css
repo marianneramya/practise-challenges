@@ -1,31 +1,53 @@
-body {
-  background-color: hsl(217, 54%, 11%);
+@import url("./main.css");
+@import url("./mobile-main.css");
+* {
+  margin: unset;
+  padding: unset;
 }
-.card-container {
-  width: 1000px;
-  padding: 100x;
-  box-sizing: border-box;
+/* outfit-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/outfit-v15-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-.card-image {
-  max-width: 209px;
-  max-height: 200px;
+/* outfit-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/outfit-v15-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-.card-title {
-  color: white;
-}
-.content {
-  color: hsl(215, 51%, 70%);
+/* outfit-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/outfit-v15-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-.value {
-  color: hsl(178, 100%, 50%);
+:root {
+  --Blue500: hsl(215, 52%, 70%);
+  --Cyan400: hsl(178, 100%, 50%);
+  --Blue950: hsl(217, 54%, 11%);
+  --Blue900: hsl(216, 50%, 16%);
+  --Blue800: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
 }
-.deadline {
-  color: hsl(215, 52%, 70%);
+
+html {
+  font-size: 18px;
+  font-family: "outfit", sans-serif;
 }
-.creator-name {
+
+body {
+  height: 100%vh;
+  width: 100%;
+  background-color: var(--Blue950);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: hsl(215, 52%, 70%);
 }
