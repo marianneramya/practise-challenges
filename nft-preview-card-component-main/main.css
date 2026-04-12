@@ -1,0 +1,69 @@
+.card-container {
+  background-color: var(--Blue900);
+  border-radius: 16px;
+  padding: 1rem;
+  width: 300px;
+  height: 500px;
+}
+.card-image {
+  max-width: 309px;
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.card-title {
+  font-size: 20px;
+  color: var(--White);
+  padding: 5px;
+}
+p {
+  color: var(--Blue500);
+  padding: 5px;
+}
+
+.div-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+}
+.card-divider {
+  border: 1px solid var(--Blue800);
+}
+
+.creator-avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  border: 1px solid var(--White);
+}
+span {
+  color: var(--Blue500);
+}
+.stats-image {
+  display: block;
+  float: left;
+  margin-right: 8px;
+}
+.card-values {
+  color: var(--Cyan400);
+  font-size: medium;
+}
+.deadline {
+  color: var(--Blue500);
+  font-size: medium;
+}
+footer {
+  border-top: 2px solid var(--Blue800);
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 1.2em;
+}
+.creator-name {
+  text-transform: capitalize;
+  align-items: end;
+  color: var(--White);
+  font-weight: 100;
+  font-size: large;
+}
