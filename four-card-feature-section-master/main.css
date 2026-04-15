@@ -1,0 +1,11 @@
+.header-text,
+.sub-header-text,
+.content {
+  text-align: center;
+}
+.header-text {
+  font-weight: 200;
+}
+.content {
+  font-weight: 100;
+}

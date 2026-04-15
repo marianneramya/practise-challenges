@@ -1,7 +1,7 @@
 .card-container {
   display: flex;
-  max-width: 1000px;
-  max-height: 350px;
+  width: 1000px;
+  height: 350px;
   background-color: var(--Blue-950);
   border-radius: 7px;
 }
@@ -15,24 +15,22 @@
 
 .header-text {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   color: var(--white-heading);
+  width: 100px;
+  height: 100px;
 }
 span {
   color: var(--Purple-500);
 }
 
 .content {
-  display: flex;
-  flex-direction: row;
   color: var(--white-para);
 }
 
 .stats {
-  display: flex;
-  /* flex-direction: column; */
   color: var(--white-para);
-  gap: 30px;
+  gap: 50px;
 }
 .stats-values {
   font-size: 2rem;
